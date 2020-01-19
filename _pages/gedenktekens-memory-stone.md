@@ -8,7 +8,7 @@ redirect_from:
   - "/gedenktekens/memory-stone/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Geïnspireerd door de natuur en met respect ontworpen.  
 Eenvoudig en natuurlijk, past in vele omgevingen en is tijdloos."
 gallery: 

@@ -8,7 +8,7 @@ redirect_from:
   - "/gedenktekens/speciale-gedenktekens/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Bijzondere gedenktekens die gemaakt worden door kunstenaars zoals beelden, kisten, urnen"
 gallery: 
   - "bijzondere-gedenktekens"  

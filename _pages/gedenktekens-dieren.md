@@ -8,7 +8,7 @@ redirect_from:
   - "/gedenktekens/gedenktekens-op-maat/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Een gedenkteken voor uw overleden huisdier in natuursteen, glas, RVS of aluminium"
 gallery: 
   - "dierengedenktekens"

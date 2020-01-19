@@ -8,7 +8,7 @@ redirect_from:
   - "/natuursteen-2/natuursteen-onderhoud/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/DejaStones.jpg"
+    image: "/assets/images/banners/DejaStones.jpg"
     text: "Voor natuursteen, composiet, ed. hebben wij diverse onderhoudsproducten." 
 ---
 Voor natuursteen, composiet, ed. hebben wij diverse onderhoudsproducten op voorraad. Ook hierin adviseren wij u graag.

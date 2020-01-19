@@ -6,7 +6,7 @@ image: ""
 permalink: "/gedenktekens/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Het gedenken van onze dierbaren die er niet meer zijn, maar waar we op liefdevolle wijze aan willen terugdenken."
 gallery: 
   - "gedenktekens"

@@ -8,7 +8,7 @@ redirect_from:
   - "/natuursteen-2/natuursteen-overig/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/DejaStones.jpg"
+    image: "/assets/images/banners/DejaStones.jpg"
     text: "Natuursteen wordt overal voor gebruikt. Er zijn veel toepassingen te bedenken."
 gallery: 
   - "natuursteen-uitvoeringen"

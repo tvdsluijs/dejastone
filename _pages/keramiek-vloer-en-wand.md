@@ -6,7 +6,7 @@ image: ""
 permalink: "/keramiek-vloer-en-wand/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Er zijn vele toepassingen van keramiek mogelijk op de vloer en aan de wand."
 gallery: 
   - "houtlook"

@@ -6,7 +6,7 @@ image: ""
 permalink: "/keramiek-in-sanitair/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "In badkamer en toillet zijn vele keramiek mogelijkheden."
 gallery: 
   - "sanitair"

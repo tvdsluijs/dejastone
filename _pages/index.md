@@ -5,7 +5,7 @@ permalink: "/"
 seo:
     type: Organization
 jumbotron:
-    image: "assets/images/banners/DejaStones.jpg"
+    image: "/assets/images/banners/DejaStones.jpg"
     text: "DeJa stone levert en plaatst bijna alles op het gebied van natuursteen, composiet, keramiek en gedenktekens."
     
 columns:

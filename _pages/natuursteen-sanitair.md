@@ -8,7 +8,7 @@ redirect_from:
   - "/natuursteen-2/natuursteen-sanitair/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/DejaStones.jpg"
+    image: "/assets/images/banners/DejaStones.jpg"
     text: "Natuursteen is een mooi product om te gebruiken in badkamer en toilet."
 gallery: 
   - "natuursteen-uitvoeringen"

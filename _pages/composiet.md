@@ -6,7 +6,7 @@ image: ""
 permalink: "/composiet/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/DejaStones.jpgg"
+    image: "/assets/images/banners/DejaStones.jpgg"
     text: "Composiet bestaat voor ruim 93% uit kwartsiet."
 gallery:
   - "composiet"

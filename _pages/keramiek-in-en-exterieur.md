@@ -6,7 +6,7 @@ image: ""
 permalink: "/keramiek-in-en-exterieur/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Inzicht in de mogelijkheden van keramiek plaatwerk of maatwerk van keramiek."
 gallery: 
   - "interieur" 

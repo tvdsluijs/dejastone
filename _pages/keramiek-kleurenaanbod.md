@@ -6,7 +6,7 @@ image: ""
 permalink: "/keramiek-kleurenaanbod/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Het keramiek kleurenaanbod is groot, met veel merken en grote collectie aan designs, kleuren en stylen."
 gallery: 
   - "neolith-kleurenaanbod"

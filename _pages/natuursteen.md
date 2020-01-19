@@ -8,7 +8,7 @@ redirect_from:
   - /natuursteen-2/
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/DejaStones.jpg"
+    image: "/assets/images/banners/DejaStones.jpg"
     text: "Natuursteen heeft een eigentijdse, tijdloze uitstraling èn is stuk voor stuk uniek!"
 gallery: 
   - "natuursteen"

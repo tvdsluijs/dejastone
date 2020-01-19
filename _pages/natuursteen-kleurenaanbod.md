@@ -8,7 +8,7 @@ redirect_from:
   - "/natuursteen-2/natuursteen-kleurenaanbod/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/DejaStones.jpg"
+    image: "/assets/images/banners/DejaStones.jpg"
     text: "Natuursteen zijn er in vele soorten en kleuren. U bent van harte uitgenodigd om in onze showroom te komen kijken."
 gallery: 
   - "natuursteen-uitvoeringen"

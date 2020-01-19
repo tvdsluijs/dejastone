@@ -8,7 +8,7 @@ redirect_from:
   - "/gedenktekens/urnen-en-asbestemmingen/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Crematie is een alternatieve vorm van teraardebestelling." 
 ---
 **Crematie** is een alternatieve vorm van teraardebestelling. Nadat het stoffelijk overschot is gecremeerd zijn er een groot aantal mogelijkheden om de as van de overledene zijn laatste bestemming te geven.

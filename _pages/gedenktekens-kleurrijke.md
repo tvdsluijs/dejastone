@@ -8,7 +8,7 @@ redirect_from:
   - "/gedenktekens/kleurrijke-gedenktekens/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Aan de hand van uw ideeën wordt kosteloos een 3-D ontwerp gemaakt van het monument"
 gallery: 
   - "kleurrijkevoorbeelden-gedenktekens"

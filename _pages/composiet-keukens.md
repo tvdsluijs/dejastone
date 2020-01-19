@@ -8,7 +8,7 @@ redirect_from:
   - "/composiet/composiet-keukens/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/DejaStones.jpg"
+    image: "/assets/images/banners/DejaStones.jpg"
     text: "Composiet is een veel gebruikt materiaal in keukens."
 gallery:
   - "composiet-in-keukens-randafwerkingen"

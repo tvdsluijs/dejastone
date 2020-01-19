@@ -8,7 +8,7 @@ redirect_from:
   - "/gedenktekens/houten-gedenktekens/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Diverse soorten hout kunnen gebruikt worden in een gedenkteken."
 gallery: 
   - "houten-gedenktekens"

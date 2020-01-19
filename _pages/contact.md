@@ -9,7 +9,7 @@ redirect_from:
   - "/over-dejastone/"
 side_image: ""
 jumbotron:
-    image: "assets/images/banners/DejaStones.jpg"
+    image: "/assets/images/banners/DejaStones.jpg"
     text: "DeJa stone levert bijna alles op het gebied van natuursteen, composiet en keramiek."
 ---
 

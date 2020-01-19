@@ -8,7 +8,7 @@ redirect_from:
   - /keramiek-2/keramiek-in-de-keuken/
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Keramiek is een hard materiaal wat bestand is tegen zonlicht, warmte, krassen, zuren en verschillende temperaturen."
 gallery: 
   - "randafwerkingen"

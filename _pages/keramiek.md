@@ -8,7 +8,7 @@ redirect_from:
   - /keramiek-2/
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Keramiek is niet meer weg te denken in ons interieur."
 ---
 

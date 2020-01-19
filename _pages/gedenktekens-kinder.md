@@ -8,7 +8,7 @@ redirect_from:
   - "/gedenktekens/kinder-gedenktekens/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Een passend gedenkteken op de laatste rustplaats van een kind dient geheel aan te sluiten bij de wensen van de nabestaanden."
 gallery: 
   - "kindervoorbeelden-gedenktekens"

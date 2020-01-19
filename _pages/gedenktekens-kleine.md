@@ -9,7 +9,7 @@ redirect_from:
   - "/overige-gedenktekens/"  
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Kleine gedenktekens zoals harten, druppels, bronzen vlinders of kleine beeldjes om bij een groter grafmonument"
 ---
 DeJa stone realiseert gedenktekens in welke gevraagde vorm dan ook.

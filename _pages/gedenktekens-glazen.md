@@ -8,7 +8,7 @@ redirect_from:
   - "/gedenktekens/glazen-gedenktekens/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Glas in grafmonumenten, een prachtige manier om uw dierbare te herdenken."
 gallery: 
   - "glazen-gedenktekens"   

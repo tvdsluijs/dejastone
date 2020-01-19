@@ -6,7 +6,7 @@ image: ""
 permalink: "/dekton/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/clouds.jpg"
+    image: "/assets/images/banners/clouds.jpg"
     text: "Dekton, een versnelde versie van duizenden jaren blootstelling aan hoge druk en hoge temperaturen."  
 ---
 

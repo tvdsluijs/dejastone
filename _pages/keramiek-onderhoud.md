@@ -6,7 +6,7 @@ image: ""
 permalink: "/keramiek-onderhoud/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
-    image: "assets/images/banners/tree.jpg"
+    image: "/assets/images/banners/tree.jpg"
     text: "Keramiek behoeft geen speciaal onderhoud omdat het een gebakken product is."    
 ---
 Keramiek en onderhoud ervan.
