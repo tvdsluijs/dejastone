@@ -1,0 +1,24 @@
+<section class="mbr-section">
+    <div class="jumbotron jumbotron-fluid gk-jumbotron">
+        <video autoplay loop muted playsinline poster="{{ page.jumbotron.image | absolute_url }}">
+<!--            https://converterpoint.com/-->
+            {% assign video = page.jumbotron.video | append: ".mp4" %}
+            <source src="{{ video | absolute_url }}" type="video/mp4">
+            {% assign video = page.jumbotron.video | append: ".3gp" %}
+            <source src="{{ video | absolute_url }}" type="video/3gp">
+            {% assign video = page.jumbotron.video | append: ".ogv" %}
+            <source src="{{ video | absolute_url }}" type="video/ogv">
+            {% assign video = page.jumbotron.video | append: ".webm" %}
+            <source src="{{ video | absolute_url }}" type="video/webm">
+        </video>
+        <div class="container gk-video-container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+                        {{page.jumbotron.text}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

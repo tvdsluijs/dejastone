@@ -1,0 +1,131 @@
+# https://medium.com/@jameshamann/creating-your-own-jekyll-theme-gem-1f8180a0e4b8
+# https://github.com/peterbe/minimalcss
+
+environment: prod
+css: "assets/css/tidy.css"
+sitename: Deja Stone
+title: Deja Stone
+tagline: Deja Stone voor alles op het gebied van natuursteen, composiet, keramiek en gedenktekens!
+description: >- # this means to ignore newlines until "baseurl:"
+  Deja Stone levert en plaatst bijna alles op het gebied van natuursteen, composiet, keramiek en gedenktekens.
+
+twitter:
+  username: DeJaUrnenhemel
+  card: summary
+
+email: info@dejastone.nl
+adres: de Aanwas 4
+postcode: 4474 NK
+plaats: Kattendijke
+telefoon: +31 113 621 434
+mobiel: +31 6 1220 3287
+kvk: 50210157
+btw: NL822612185B01
+
+address_long: 51.510319
+address_lat: 3.955276
+address_house_long: 51.509865
+address_house_lat: 3.955500
+map_icon: building
+google_url: "https://www.google.nl/maps/dir/DejaStone,+De+Aanwas+4,+4474+NK+Kattendijke/@51.5067986,3.9414037,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47c82e4cca0ab831:0x621fd60057ed38de!2m2!1d3.9552541!2d51.510112!3e0"
+
+graven_icon: church
+
+logo: "logo/Deja_Stone_logo.png"
+logo-150: "logo/Deja_Stone_logo_150.png"
+
+social:
+  name: Dejastone
+  links:
+    - https://twitter.com/DeJaUrnenhemel
+    - https://www.facebook.com/dejastone.maatwerk
+
+lang: nl_NL
+
+#webmaster_verifications:
+#  google: 1234
+#  bing: 1234
+#  alexa: 1234
+#  yandex: 1234
+#  baidu: 1234
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+menus:
+  - name: "Grafmonument"
+    url: "grafmonument"
+  - name: "Kindermonument"
+    url: "kindermonument"
+  - name: "Mogelijkheden"
+    url: "grafsteen-mogelijkheden"
+  - name: "Galerij"
+    url: "grafmonumenten-galerij"
+  - name: "Kaart"
+    url: "grafmonumenten-bekijken"
+  - name: "Contact"
+    url: "contact"
+
+extra_pages:
+  - name: "Kindergraf"
+    url: "kindergraf"
+  - name: "Grafzerk"
+    url: "grafzerk"
+  - name: "Grafsteen met foto"
+    url: "grafsteen-met-foto"
+  - name: "Foto op grafsteen"
+    url: "foto-grafsteen"
+  - name: "Grafsteen met glas"
+    url: "grafsteen-met-glas"
+  - name: "Grafsteen kind"
+    url: "grafsteen-kind"
+  - name: "Kindergraven"
+    url: "kindergraven"
+  - name: "Kindergrafsteen"
+    url: "kindergrafsteen"
+  - name: "Grafsteen baby"
+    url: "grafsteen-baby"
+  - name: "Grafsteen in mozaiek"
+    url: "grafsteen-mozaiek"
+  - name: "Grafsteen solid surface"
+    url: "grafsteen-solid-surface"
+  - name: "Grafsteen in RVS"
+    url: "grafsteen-rvs"
+
+external_links:
+  - name: "Grafkunsten"
+    url: "https://grafkunsten.nl"
+  - name: "Bouw- en aannemingsbedrijf Jari"
+    url: "https://bouwbedrijfjari.nl"
+  - name: "Urnenhemel"
+    url: "https://urnenhemel.nl"
+  - name: "Laatstewens.nl"
+    url: "https://laatstewens.nl/grafmonumenten/zeeland/kattendijke/grafkunsten/285269"
+  - name: "Rememberme.nl"
+    url: "https://www.rememberme.nl/leveranciers/grafmonumenten/25239"
+
+#site stuff
+google_analytics: UA-46272092-1
+disqus:
+
+# HIER ONDER NIET AANZITTEN AUB
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.dejastone.nl" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-coffeescript
+  - jekyll-redirect-from
+
+sass:
+  style: compressed
+
+include: ["_pages"]
+timezone: "Europe/Amsterdam"

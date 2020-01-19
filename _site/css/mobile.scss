@@ -1,0 +1,42 @@
+@media (max-width: 1024px){
+  .card-back{
+    //max-height: 200px;
+    overflow: hidden;
+  }
+  .gk-examples-row{
+    margin-bottom: 0;
+  }
+  #grafkunsten_logo_top{width: 418px; height: 86px}
+}
+
+@media (max-width: 1366px){
+  img.card-img-top.img-fluid {
+    //max-height: 235px;
+  }
+  #grafkunsten_logo_top{width: 418px; height: 86px}
+}
+
+@media (max-width: 768px) {
+  .cards {
+    margin-bottom: 45px;
+  }
+  .container.main-text {
+    //margin-top: 25px;
+  }
+  img.card-img-top.img-fluid {
+    //max-height: 200px;
+  }
+
+  .h1, h1 {
+    font-size: 2rem;
+  }
+
+  #grafkunsten_logo_top{width: 225px; height: 46px}
+}
+
+a{line-height:2;
+padding: 48px 0 48px 0 }
+@media(min-width:60em){
+  a{line-height:1.2;
+  padding: 0}
+}

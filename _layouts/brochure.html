@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col text-right">
+        <h4 class="contact text-left"><span class="fal fa-envelope"></span> Wij helpen u graag verder met onze brochure.</h4>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-9 col-xl-9">
+        <div id="successmessage" style="display:none">Bedankt! Uw Brochure is aangevraagd.</div>
+        <div class="form-area">
+            <form role="form" id="contact-form" method="post" action="#" >
+                <div class="row row_form">
+                    <div class="col">
+                        <input type="text" class="form-input form-control" id="naam" name="naam"
+                               minlength="2" placeholder="Uw naam *"
+                               required aria-label="Veld voor uw naam, dit veld is verplicht.">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-input form-control" id="telefoon" name="telefoon"
+                               placeholder="Uw telefoon nummer *" required aria-label="Veld voor uw telefoon nummer, dit veld is verplicht">
+                    </div>
+                </div>
+                <div class="row row_form">
+                    <div class="col">
+                        <input class="form-input form-control" id="email" name="email"
+                               placeholder="E-mail adres *" type="email" aria-label="Veld voor uw email adres, dit veld is verplicht">
+                    </div>
+                </div>
+                <div class="row row_form">
+                    <div class="col">
+                        <input type="text" class="form-input form-control" id="straat" name="straat"
+                               placeholder="Uw straatnaam en huisnummer *" required aria-label="Veld voor uw straat naam en nummer, dit veld is verplicht.">
+                    </div>
+                </div>
+                <div class="row row_form">
+                    <div class="col-4">
+                        <input type="text" class="form-input form-control" id="postcode" name="postcode"
+                               minlength="6" placeholder="Uw postcode *" required aria-label="Veld voor uw postcode, dit veld is verplicht.">
+                    </div>
+                    <div class="col-8">
+                        <input class="form-input form-control" id="woonplaats" name="woonplaats"
+                               placeholder="Uw woonplaats *" type="text" required aria-label="Veld voor uw woonplaats, dit veld is verplicht.">
+                    </div>
+                </div>
+                <div class="row row_form">
+                    <div class="col">
+                        <textarea class="form-input form-control" type="textarea" id="bericht"
+                                  name="bericht" placeholder="Eventuele opmerkingen" required minlength="2" rows="7" aria-label="Veld voor eventuele opmerkingen."></textarea>
+                    </div>
+                </div>
+                <div class="row row_form">
+                    <div class="col checkbox-col">
+                        <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" id="privacystatement" name="privacystatement" value="Ja" required aria-label="Vinkje dat u onze privacy informatie heeft gelezen en heeft begrepen.">
+                            Ik heb het <strong><a href="{{"/privacybeleid/" | absolute_url}}" target="_blank">privacybeleid</a></strong> gelezen, ik begrijp dat mijn gegevens alleen worden gebruikt voor het contact opnemen met mij en ga ermee akkoord. Wij gebruiken uw telefoon nummer om binnen 3 weken na versturing brochure contact met u op te nemen en de mogelijkheden met u te bespreken. Helaas versturen wij geen brochures zonder correct telefoon nummer.</label>
+                    </div>
+                </div>
+                <div class="row row_form_button text-center">
+                    <div class="col">
+                        <div id="errormessage" style="display:none">Oh Oh! Er is iets fout gegaan.</div>
+                        <button type="submit" class="btn btn-primary pull-right" aria-label="Knop om het formulier te sturen">Verstuur
+                            <i class="fal fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <div class="col-3 cliente d-none d-lg-block">
+        <img src="{{page.site_image}}" class="img-fluid col_img"/>
+        <h5>Meer informatie?</h5>
+        <p class="gk-text">Neem voor meer informatie gerust contact met ons op. Onze adviseur komt op een passend moment langs en spreekt alles met u door. Wij helpen u graag.</p>
+        <p>
+            <a href="{{ 'grafmonumenten-galerij/' | absolute_url }}" class="btn btn-primary sidebr_button" aria-label="Onze gallerij met voorbeelden">Meer voorbeelden <span class="fal fa-forward float-right button-icon"></span></a>
+        </p>
+        <p>
+            <a href="{{ 'contact/' | absolute_url }}" class="btn btn-primary sidebr_button" aria-label="Naar ons contact formulier">Contact <span class="fal fa-envelope float-right button-icon"></span></a>
+        </p>
+    </div>
+</div>
+{{ content }}

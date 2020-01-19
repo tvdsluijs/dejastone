@@ -1,0 +1,61 @@
+<script>
+    $(function() {
+        var house_long = {{site.address_house_long}}
+        var house_lat = {{site.address_house_lat}}
+        var map_icon = '{{site.map_icon}}'
+        var grave_icon = '{{site.graven_icon}}'
+        // var markersById = {};
+
+        var mymap = L.map('map').setView([52.1326, 5.2912], 8);
+
+        // Creates a red marker with the coffee icon
+        var iconMarker = L.AwesomeMarkers.icon({
+            icon: map_icon,
+            prefix: 'fa',
+            markerColor: 'orange'
+        });
+
+        var graveMarker = L.AwesomeMarkers.icon({
+            icon: grave_icon,
+            prefix: 'fa',
+            markerColor: 'orange'
+        });
+
+        var address = "<b>{{site.title}}</b><br/>{{site.adres}}<br/>{{site.postcode}} {{site.plaats}}<br/><a href='{{site.google_url}}' target='_blank' rel='noopener'>Route</a>"
+
+        L.marker([house_long, house_lat],{icon: iconMarker}).bindPopup(address).addTo(mymap);
+
+        {%- for g in page.graves %}
+        {%- assign ref = "t_" | append: forloop.index %}
+        var {{ref}} = L.marker([{{g.lng}}, {{g.lat}}], {icon: graveMarker}).bindPopup("<p class='gk-bold'>{{g.title}}</p>{{g.address}}<br/>{{g.description}}").addTo(mymap);
+        // markersById[{{forloop.index}}] = {{ref}}/**/
+        {%- endfor %}
+
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+            maxZoom: 18,
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/" rel="noopener">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="noopener">CC-BY-SA</a>, ' +
+            'Imagery © <a href="https://www.mapbox.com/" rel="noopener">Mapbox</a>',
+            id: 'mapbox.streets'
+        }).addTo(mymap);
+
+        /* click on LI MAPS */
+        $(".map_li").click(function(){
+            var t = $(this).attr('data-ref');
+            var t = t*1;
+            switch(t) {
+                {%- for g in page.graves %}
+                case {{forloop.index }}:
+                    {%- assign ref = "t_" | append: forloop.index %}
+                    // L.map('map').setView([52.1326, 5.2912], 8);
+                    {{ref}}.fire('click');
+                    mymap.flyTo([{{g.lng}}, {{g.lat}}], 12);
+                    break;
+                {%- endfor %}
+                default:
+                    console.log('nothing!')
+            }
+        });
+
+    });
+</script>

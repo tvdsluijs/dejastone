@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{{ content }}
+<div id='map'></div>
+
+<hr class="gk-short-line" />
+<div class="row counter-container">
+    <ol class="map_ol">
+        {%- for g in page.graves %}
+        <li class="map_li" data-ref="{{forloop.index}}">
+            <div class="map_onderlay">
+                <span class="gk-bold">{{g.title}}</span><br/>
+                {{g.address}}<br>
+                {{g.description}}
+            </div>
+        </li>
+        {%- endfor %}
+    </ol>
+</div>

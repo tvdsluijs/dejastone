@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+        <h5>Wij staan klaar om uw wensen te bespreken</h5>
+    </div>
+    <div class="col-12 col-sm-12 col-md-2 col-lg-2">
+        {% include contact_info.html %}
+    </div>
+    <div class="col-6 col-sm-6 col-md-2 col-lg-2">
+        {% include address.html %}
+    </div>
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+        <p>
+            KVK: {{site.kvk}}<br/>
+            BTW: {{site.btw}}<br/>
+        </p>
+    </div>
+</div>
+
+<div class="container main-text">
+    <div class="col-lg-12">
+        <hr class="gk-short-line" />
+    </div>
+</div>
+
+<div class="row d-none d-md-block d-lg-block">
+    <div class="col text-right">
+        <h4 class="contact text-right"><span class="fal fa-envelope"></span> Aarzel niet om contact met ons op te nemen</h4>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div id='contact_map'></div>
+    </div>
+
+    <div class="col text-right d-block d-sm-none">
+        <hr class="gk-short-line" />
+        <h4 class="contact"><span class="fal fa-envelope"></span>Aarzel niet om contact met ons op te nemen</h4>
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div id="successmessage" style="display:none">Bedankt! Uw  bericht is verzonden</div>
+        <div class="form-area">
+            <form role="form" id="contact-form" method="post" action="#" >
+                <div class="row row_form">
+                    <div class="col">
+                        <input type="text" class="form-input form-control" id="naam" name="naam"
+                               minlength="2" placeholder="Naam *"
+                               required aria-label="Veld voor uw naam, dit veld is verplicht">
+                    </div>
+                    <div class="col">
+                        <input class="form-input form-control" id="email" name="email"
+                               placeholder="E-mail adres *" type="email" required aria-label="Veld voor uw email adres. dit veld is verplicht.">
+                    </div>
+                </div>
+                <div class="row row_form">
+                    <div class="col">
+                        <input type="text" class="form-input form-control" id="telefoon" name="telefoon"
+                               placeholder="Telefoon nummer" aria-label="Veld voor uw telefoonnummer.">
+                    </div>
+                </div>
+                <div class="row row_form">
+                    <div class="col">
+                        <textarea class="form-input form-control" type="textarea" id="bericht"
+                                  name="bericht" placeholder="Bericht" required minlength="2" rows="7" aria-label="Veld voor uw bericht."></textarea>
+                    </div>
+                </div>
+                <div class="row row_form">
+                    <div class="col checkbox-col">
+                        <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="privacystatement" id="privacystatement" value="Ja" required
+                               aria-label="Vinkje dat u onze privacy informatie heeft gelezen en heeft begrepen.">
+                            Ik heb het <strong><a href="{{"/privacybeleid/" | absolute_url}}" target="_blank">privacybeleid</a></strong> gelezen, ik begrijp dat mijn gegevens alleen worden gebruikt voor het contact opnemen met mij en ga ermee akkoord.</label>
+                    </div>
+                </div>
+                <div class="row row_form_button text-center">
+                    <div class="col">
+                        <div id="errormessage" style="display:none">Oh Oh! Er is iets fout gegaan.</div>
+                        <button type="submit" class="btn btn-primary pull-right"
+                                aria-label="Knop om het formulier te sturen">Verstuur
+                            <i class="fal fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+{{ content }}

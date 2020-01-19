@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{{content}}
+
+<hr class="gk-short-line" />
+
+<div class="container photo-text-cycle">
+    {%- for item in page.items %}
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {%- if thecycle == 'odd' %}
+    <div class="row photo-text-cycle">
+        <h2>{{item.head}}</h2>
+        <div class="flex-row br_moments">
+            <div class="col-sm-12 col-md-6 col-lg-3 float-left">
+                {% if item.img contains '://' %}
+                <img src="{{item.img}}" alt="{{item.head}}" class="img-fluid"/>
+                {% else %}
+                <img src="{{site.baseurl}}/{{item.img}}" alt="{{item.head}}" class="img-fluid"/>
+                {% endif %}
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-9 float-right">
+                <p>{{item.text | newline_to_br}}
+                    {%- if item.url != null and item.url != "" %}
+                    <a href="{{ site.baseurl }}{{item.url}}" class="vette_url">Lees meer over {{item.head}}</a>.
+                    {% endif %}</p>
+            </div>
+        </div>
+    </div>
+        {%- else %}
+    <div class="row photo-text-cycle">
+        <h2>{{item.head}}</h2>
+        <div class="flex-row br_moments">
+            <div class="col-sm-12 col-md-6 col-lg-3 float-right">
+                {% if item.img contains '://' %}
+                <img src="{{item.img}}" alt="{{item.head}}" class="img-fluid"/>
+                {% else %}
+                <img src="{{site.baseurl}}/{{item.img}}" alt="{{item.head}}" class="img-fluid"/>
+                {% endif %}
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-9 float-left">
+                <p>{{item.text | newline_to_br}}
+                    {%- if item.url != null and item.url != "" %}
+                    <a href="{{ site.baseurl }}{{item.url}}" class="vette_url">Lees meer over {{item.head}}</a>.
+                    {% endif %}</p>
+            </div>
+        </div>
+        </div>
+        {%- endif %}
+    <p><br/></p>
+    {%- endfor %}
+</div>
+
+
+

@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<div class="row justify-content-center gk-column-row">
+    {%- for col in page.columns %}
+    <div class="col-12 col-md-6 col-lg-3">
+        <!--col-sm-->
+        <div class="media head-card-title">
+            <div class="card-img align-self-center">
+                {% if col.svg %}
+                {% include_relative svg/{{col.svg}} %}
+                {% else %}
+                <span class="{{col.icon}} col-icon" ></span>
+                {% endif %}
+            </div>
+            <h2 class="head-h2-title">{{col.head}}</h2>
+        </div>
+        <div class="card-box">
+            <p>{{col.text}}</p>
+        </div>
+    </div>
+    {%- endfor %}
+</div>
+
+<hr class="gk-short-line" />
+
+<div class="row justify-content-center gk-examples-row">
+    {%- for example in page.examples %}
+    <div class="col-sm-6 col-lg-3 cards">
+        <!-- Card Flip -->
+        <div class="card-flip">
+            <div class="flip">
+                <div class="card-back">
+                    <div class="card border-0">
+                        <div class="card-block border-0">
+                            <h5 class="display-5">{{example.head}}</h5>
+                            <p class="">{{example.text}}
+                                {%- if example.url %}
+                                <br/><a class="dark" href="{{example.url}}">Lees meer</a>
+                                {%- endif %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-front">
+                    <div class="card">
+                        <img src="{{example.img}}" alt="{{example.head}}" class="card-img-top img-fluid" height="338px" width="338px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Card Flip -->
+    </div>
+    {%- endfor%}
+</div>
+{% if page.content != "" %}
+<hr class="gk-short-line" />
+{% endif %}
+
+{{ content }}
