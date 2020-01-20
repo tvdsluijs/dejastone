@@ -4155,6 +4155,7 @@ var CACHE_NAME = 'grafkunsten-cache-v1';
       urlsToCache.push("/assets/js/scripts.min.js")
       urlsToCache.push("/logo/Deja_Stone_logo.png")
       urlsToCache.push("/logo/Deja_Stone_logo_150.png")
+      urlsToCache.push("/logo/Deja_Stone_logo_265_53.png")
       urlsToCache.push("/logo/icon.png")
       urlsToCache.push("/logo/orgs/2019 - Deja Stone - Mail footer-01-1.png")
       urlsToCache.push("/logo/orgs/logo Deja Stone#RGB.jpg")
