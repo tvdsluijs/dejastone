@@ -7,9 +7,9 @@ layout: default
     </div>
     <div class="col-3 cliente d-none d-lg-block">
         {% if item.img contains '://' %}
-            <img src="{{page.side_image}}" alt="Onze grafkunsten adviseur" class="img-fluid col_img"/>
+            <img src="{{page.side_image}}" alt="Onze grafkunsten adviseur" loading="lazy" class="img-fluid col_img"/>
         {% else %}
-            <img src="{{page.side_image | absolute_url }}" alt="Onze Deja Stone adviseur" class="img-fluid col_img"/>
+            <img src="{{page.side_image | absolute_url }}" alt="Onze Deja Stone adviseur" loading="lazy" class="img-fluid col_img"/>
         {% endif %}
         <h5>Meer informatie?</h5>
         <p class="gk-text">Neem voor meer informatie gerust contact met ons op. Onze adviseur komt op een passend moment langs en spreekt alles met u door. Wij helpen u graag.</p>
@@ -18,9 +18,9 @@ layout: default
                 <span class="fal fa-forward float-right button-icon"></span>
             </a>
         </p> -->
-                        <!--        <p>-->
-                        <!--            <a href="{{ 'ontwerpfotos/' | absolute_url }}" class="btn btn-primary sidebr_button">Ontwerpfoto's <span class="fal fa-camera-retro float-right button-icon"></span></a>-->
-                        <!--        </p>-->
+                                <!--        <p>-->
+                                <!--            <a href="{{ 'ontwerpfotos/' | absolute_url }}" class="btn btn-primary sidebr_button">Ontwerpfoto's <span class="fal fa-camera-retro float-right button-icon"></span></a>-->
+                                <!--        </p>-->
         <p>
             <a href="{{ 'brochure/' | absolute_url }}" class="btn btn-primary sidebr_button" aria-label="Vraag onze brochure aan.">Brochure aanvragen
                 <span class="fal fa-file-invoice float-right button-icon"></span>

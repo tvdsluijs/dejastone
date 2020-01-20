@@ -4,49 +4,52 @@ layout: default
 
 {{ content }}
 
-<hr class="gk-short-line" />
+<hr class="gk-short-line"/>
 
 <div class="row justify-content-md-center gk-botton-row">
     <div align="col-sm">
-        <button type="button" class="btn btn-primary filter-button" data-filter="all" aria-label="Filter knop, laat alles zien.">Alles</button>
+        <button aria-label="Filter knop, laat alles zien." class="btn btn-primary filter-button" data-filter="all" type="button">Alles</button>
     </div>
-<!-- Create empty arrays -->
-{% assign tags = '' | split: ',' %}
-{% assign unique_tags = '' | split: ',' %}
+    <!-- Create empty arrays -->
+    {% assign tags = '' | split: ',' %}
+    {% assign unique_tags = '' | split: ',' %}
 
-<!-- Map and flatten -->
-{% assign example_tags =  page.examples | map: 'tags' | join: ',' | join: ',' | split: ',' %}
+    <!-- Map and flatten -->
+    {% assign example_tags =  page.examples | map: 'tags' | join: ',' | join: ',' | split: ',' %}
 
-<!-- Push to tags -->
-{% for tag in example_tags %}
-    {% assign tags = tags | push: tag %}
-{% endfor %}
+    <!-- Push to tags -->
+    {% for tag in example_tags %}
+        {% assign tags = tags | push: tag %}
+    {% endfor %}
 
-{% assign tags = tags | sort %}
-<!-- Uniq -->
-{% for tag in tags %}
-    {% unless tag == previous %}
-        {% assign unique_tags = unique_tags | push: tag %}
-    {% endunless %}
-    {% assign previous = tag %}
-{% endfor %}
+    {% assign tags = tags | sort %}
+    <!-- Uniq -->
+    {% for tag in tags %}
+        {% unless tag == previous %}
+            {% assign unique_tags = unique_tags | push: tag %}
+        {% endunless %}
+        {% assign previous = tag %}
+    {% endfor %}
 
-{% for tag in unique_tags %}
-    <div align="col-sm">
-        <button type="button" class="btn btn-primary filter-button" data-filter="{{tag}}" aria-label="Filter knop, laat alleen {{tag}} zien.">{{tag}}</button>
-    </div>
-{% endfor %}
+    {% for tag in unique_tags %}
+        <div align="col-sm">
+            <button type="button" class="btn btn-primary filter-button" data-filter="{{tag}}" aria-label="Filter knop, laat alleen {{tag}} zien.">{{tag}}</button>
+        </div>
+    {% endfor %}
 
 </div>
 
-<div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+<div aria-hidden="true" aria-labelledby="enlargeImageModal" class="modal fade" id="enlargeImageModal" role="dialog" tabindex="-1">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <span class="model-span"></span> <button type="button" class="close" data-dismiss="modal" aria-label="Sluiten"><span aria-hidden="true">×</span></button>
+                <span class="model-span"></span>
+                <button aria-label="Sluiten" class="close" data-dismiss="modal" type="button">
+                    <span aria-hidden="true">×</span>
+                </button>
             </div>
             <div class="modal-body">
-                <img src="" class="enlargeImageModalSource" style="width: 100%;">
+                <img class="enlargeImageModalSource" src="" style="width: 100%;">
             </div>
         </div>
     </div>
@@ -54,16 +57,16 @@ layout: default
 
 <div class="gk-gallery">
     <div class="row justify-content-md-center gk-gallery-row">
-    {% assign i = 1 %}
-    {% for item in page.examples %}
-        {% assign item_tags = item | map: 'tags' | join: ' ' | join: ' ' | split: ',' %}
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 img-col filter {{item_tags}}">
-            <!-- col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe-->
-            <img src="{{ item.small | absolute_url }}" alt="{{item.text}}" class="img-fluid img-gallery" />
-            <div class="overlay img-fluid" data-image="{{ item.big | absolute_url }}" data-text="{{item.text}}">
-                <div class="text">{{item.text}}</div>
+        {% assign i = 1 %}
+        {% for item in page.examples %}
+            {% assign item_tags = item | map: 'tags' | join: ' ' | join: ' ' | split: ',' %}
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 img-col filter {{item_tags}}">
+                <!-- col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe-->
+                <img src="{{ item.small | absolute_url }}" loading="lazy" alt="{{item.text}}" class="img-fluid img-gallery"/>
+                <div class="overlay img-fluid" data-image="{{ item.big | absolute_url }}" data-text="{{item.text}}">
+                    <div class="text">{{item.text}}</div>
+                </div>
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
     </div>
 </div>
