@@ -19,7 +19,7 @@ gallery:
 
 U kunt denken aan een aanrechtblad, gootsteen, handgreep en vloer. Natuursteen heeft een unieke uitstraling en geeft uw keuken net dat _**beetje meer!**_  
   
-Er zijn vele [uitvoeringen](https://www.dejastone.nl/natuursteen-2/natuursteen-keukens/uitvoeringen-natuursteen-keukens/) en [toepassingen](https://www.dejastone.nl/natuursteen-2/natuursteen-keukens/keukenvoorbeelden-natuursteen/) mogelijk. Als u de foto’s hieronder aanklikt ziet u bijvoorbeeld verschillende [randafwerkingen](https://www.dejastone.nl/natuursteen-2/natuursteen-keukens/randafwerkingen-natuursteen-keuken/), spoelbak inbouw mogelijkheden en kleuren natuursteen. Er is heel veel mogelijk, legt u het ons voor als uw idee er niet bijstaat!  
+Er zijn vele [uitvoeringen](/natuursteen-keukens/) en [toepassingen](/natuursteen-kleurenaanbod/) mogelijk. Als u de foto’s hieronder aanklikt ziet u bijvoorbeeld verschillende [randafwerkingen](/natuursteen-keukens/), spoelbak inbouw mogelijkheden en kleuren natuursteen. Er is heel veel mogelijk, legt u het ons voor als uw idee er niet bijstaat!  
   
 **3D ontwerp keuken**
 

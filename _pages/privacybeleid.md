@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Privacybeleid"
-description: ""
+title: "Privacybeleid en gegevensverwerking"
+description: "Deja Stone geeft veel om onze natuursteen, composiet en keramiek producten en ook om uw Privacy."
 image: ""
 permalink: "/privacybeleid/"
 side_image: ""

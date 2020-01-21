@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Dekton"
+title: "Dekton krasvaste oplossingen"
 description: "Dekton, een versnelde versie van duizenden jaren blootstelling aan hoge druk en hoge temperaturen."
 image: ""
 permalink: "/dekton/"

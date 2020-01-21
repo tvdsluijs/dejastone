@@ -1,7 +1,7 @@
 ---
 layout: contact
-title: "Contact"
-description: ""
+title: "Contact opnemen met "
+description: "Neem contact met ons op voor meer informatie over natuursteen, composiet en keramiek."
 image: ""
 permalink: "/contact/"
 redirect_from:
