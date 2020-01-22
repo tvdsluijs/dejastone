@@ -3,6 +3,20 @@ module.exports = function (grunt) {
     grunt.initConfig({
         uncss: {
             dist: {
+                options: {
+                    ignore: [
+                        // needed for Bootstrap's transitions
+                        ".fade",
+                        ".fade.in",
+                        ".collapse",
+                        ".collapse.in",
+                        ".collapsing",
+                        ".alert-danger",
+                        /(#|\.)navbar(\-[a-zA-Z]+)?/,
+                        /(#|\.)dropdown(\-[a-zA-Z]+)?/,
+                        /(#|\.)(open)/s
+                    ]
+                },
                 files:
                 {
                     'assets/css/tidy.css': ['_site/index.html',
