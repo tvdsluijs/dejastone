@@ -13,10 +13,6 @@ jumbotron:
 gallery: 
   - "houten-gedenktekens"
 ---
-**[Houten gedenktekens](https://www.dejastone.nl/gedenktekens/)** zijn grafmonumenten of urnenmonumenten van hout. Diverse soorten hout kunnen gebruikt worden in een gedenkteken.
+**[Houten gedenktekens](/gedenktekens/)** zijn grafmonumenten of urnenmonumenten van hout. Diverse soorten hout kunnen gebruikt worden in een gedenkteken.
 
 Hardhout, versteend hout…er zijn vele mogelijkheden.
-
-Neemt u gerust vrijblijvend [**contact**](http://staging.dejastone.nl/contact/) met ons op of u kunt vrijblijvend een
-
-[Offerte aanvragen](https://www.dejastone.nl/contact/)

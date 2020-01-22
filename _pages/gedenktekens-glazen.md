@@ -13,7 +13,7 @@ jumbotron:
 gallery: 
   - "glazen-gedenktekens"   
 ---
-Hieronder ziet u voorbeelden van **[glazen grafmonumenten](https://www.dejastone.nl/gedenktekens/glazen-gedenktekens/)****.**
+Hieronder ziet u voorbeelden van **[glazen grafmonumenten](/glazen-gedenktekens/)****.**
 
 **Glas in grafmonumenten**:
 

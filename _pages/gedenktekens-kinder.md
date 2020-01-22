@@ -35,4 +35,4 @@ U kunt een afspraak maken bij u thuis of in onze showroom met showtuin.
 
 Wij geven de nabestaanden ruim de tijd om hun verhaal te doen. Uit de ideeën die hieruit voortvloeien maken wij een concept voor het gedenkteken wat wij vervolgens na goedkeuring zullen uitvoeren en uiteindelijk zullen plaatsen.
 
-Onder [**overige gedenktekens**](https://www.dejastone.nl/gedenktekens/overige-gedenktekens/ "Overige gedenktekens") staan nog meer voorbeelden die wellicht aansluiten bij wensen die er zijn. Kistbeschildering is daar een voorbeeld van.
+Onder [**overige gedenktekens**](/overige-gedenktekens/ "Overige gedenktekens") staan nog meer voorbeelden die wellicht aansluiten bij wensen die er zijn. Kistbeschildering is daar een voorbeeld van.

@@ -25,7 +25,7 @@ module.exports = function (grunt) {
                         '_site/grafmonumenten-galerij/index.html',
                         '_site/grafmonumenten-bekijken/index.html',
                         '_site/brochure/index.html',
-                        '_site/foto-grafsteen/index.html']
+                        '_site/natuursteen-keukens/index.html']
                 }
             }
         },

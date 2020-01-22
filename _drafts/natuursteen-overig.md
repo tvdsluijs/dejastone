@@ -41,19 +41,3 @@ Natuursteen wordt overal voor gebruikt. Er zijn ook zoveel toepassingen dat wij 
 *   etc.
 
 **Maatwerk** in natuursteen is dus eerder regel dan uitzondering. Wij denken graag met uw ideeën mee en maken een **prijsvoorstel op maat.**
-
-Neemt u gerust vrijblijvend **[contact](/contact/)** met ons op of u kunt vrijblijvend een
-
-[Offerte aanvragen](/contact/)
-
-**Uitvoeringen**  
-
-[![](/images/2015/02/randafwerking-in-verstek-aanrechtblad-natuursteen-275x145.jpg)](https://www.dejastone.nl/natuursteen-2/natuursteen-overig/uitvoeringen-natuursteen-overig/)
-
-**Kleurenaanbod**  
-
-[![](/images/2015/02/Kleurenpallet-natuursteen-275x145.jpg)](https://www.dejastone.nl/natuursteen-2/natuursteen-overig/kleurenaanbod-natuursteen-overig/)
-
-**Overigevoorbeelden**  
-
-[![](/images/2015/02/raandorpel-belgisch-hardsteen-275x145.jpg)](https://www.dejastone.nl/natuursteen-2/natuursteen-overig/overigevoorbeelden-natuursteen-overig/)

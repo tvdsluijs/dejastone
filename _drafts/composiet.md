@@ -33,7 +33,7 @@ Composiet kent vele toepassingen:
 
 **Uitvoeringen en kleuren:**
 
-Wij werken met verschillende leveranciers waardoor wij een zeer uitgebreid **[kleurenaanbod](https://www.dejastone.nl/composiet/composiet-kleurenaanbod/)** kunnen bieden. Elke serie heeft verschillende uitvoeringen zoals gepolijst, gezoet, leather, suede, volcano, anticato etc. Vraagt u naar de mogelijkheden per kleur!
+Wij werken met verschillende leveranciers waardoor wij een zeer uitgebreid **[kleurenaanbod](/composiet-kleurenaanbod/)** kunnen bieden. Elke serie heeft verschillende uitvoeringen zoals gepolijst, gezoet, leather, suede, volcano, anticato etc. Vraagt u naar de mogelijkheden per kleur!
 
 **Onze collecties:**    Topline, Silestone, Caesarstone, Dekton Sensa en Diresco.
 

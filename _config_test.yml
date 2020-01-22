@@ -171,3 +171,10 @@ sass:
 
 include: ["_pages"]
 timezone: "Europe/Amsterdam"
+exclude:
+  - .Gruntfile.js
+  - .vscode
+  - node_modules
+  - scss
+  - css
+  - _drafts

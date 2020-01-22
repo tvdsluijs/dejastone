@@ -28,7 +28,7 @@ keramiek in de keuken
 Keramiek in de keuken:  aanrechtblad, achterwand, vensterbanken, tafelbladen, vloer- en wandtegels of een gehele keramiek plaat als wand of vloer!  
 **Uitvoeringen en kleuren:**
 
-Wij werken met verschillende merken keramiek in de keuken: **[kleurenaanbod](https://www.dejastone.nl/keramiek-kleurenaanbod/)[ ](https://www.dejastone.nl/composiet/composiet-kleurenaanbod/)**. 
+Wij werken met verschillende merken keramiek in de keuken: **[kleurenaanbod](/keramiek-kleurenaanbod/)[ ](/composiet-kleurenaanbod/)**. 
 
 **Merken:**  
 Maatwerk keukenbladen, plaatwerk e.d.: **NEOLITH** en **INALCO.**  

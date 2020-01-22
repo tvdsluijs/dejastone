@@ -29,19 +29,3 @@ Wij leveren vorstvrije tegels en omrandingen voor buiten.
 **Leggen van vloer- en wandtegels:**
 
 Wij kunnen uw vloer- en wandtegels ook leggen. Wij hebben vele jaren ervaring in het leggen van natuursteentegels op vloer en wand.
-
-Neemt u gerust vrijblijvend **[contact](/contact/)** met ons op of u kunt vrijblijvend een
-
-[Offerte aanvragen](/contact/)
-
-**Uitvoeringen**  
-
-[![](/images/2015/02/randafwerking-in-verstek-aanrechtblad-natuursteen-275x145.jpg)](https://www.dejastone.nl/natuursteen-2/natuursteen-vloeren/uitvoeringen-vloeren-natuursteen/)
-
-**Kleurenaanbod**  
-
-[![](/images/2015/02/Kleurenpallet-natuursteen-275x145.jpg)](https://www.dejastone.nl/natuursteen-2/natuursteen-vloeren/kleurenaanbod-vloeren-natuursteen/)
-
-**Vloerenvoorbeelden**  
-
-[![](/images/2015/02/Trapbekleding-Crema-Marfil-Ivory-natuursteen-275x145.jpg)](https://www.dejastone.nl/natuursteen-2/natuursteen-vloeren/vloerenvoorbeelden-vloeren-natuursteen/)
