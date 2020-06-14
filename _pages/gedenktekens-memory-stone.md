@@ -6,6 +6,7 @@ image: ""
 permalink: "/memory-stone-gedenktekens/"
 redirect_from:
   - "/gedenktekens/memory-stone/"
+  - "/memory-stone/"
 side_image: "/assets/images/dejastone_denise-242x116.jpg"
 jumbotron:
     image: "/assets/images/banners/tree.jpg"

@@ -7,13 +7,14 @@ permalink: "/contact/"
 redirect_from:
   - "/ons/dejastone/"
   - "/over-dejastone/"
+  - "/brochure/"
 side_image: ""
 jumbotron:
     image: "/assets/images/banners/DejaStones.jpg"
     text: "DeJa stone levert bijna alles op het gebied van natuursteen, composiet en keramiek."
 ---
 
-Dejastone levert en plaatst bijna alles op het gebied van **[natuursteen](/natuursteen/)**, **[composiet](composiet/)**, **[keramiek](/keramiek/)** en **[gedenktekens](/gedenktekens/)**.
+Dejastone levert en plaatst bijna alles op het gebied van **[natuursteen](/natuursteen/)**, **[composiet](/composiet/)**, **[keramiek](/keramiek/)** en **[gedenktekens](/gedenktekens/)**.
 
 Wij leveren aan particulieren maar ook aan bedrijven!
 

@@ -172,6 +172,10 @@ sass:
 include: ["_pages"]
 timezone: "Europe/Amsterdam"
 exclude:
+  - screenshot.png
+  - Gemfile.lock
+  - Gemfile
+  - README.md
   - .Gruntfile.js
   - .vscode
   - node_modules

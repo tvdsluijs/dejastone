@@ -15,7 +15,7 @@ gallery:
 
 **[Grafmonument](/gedenktekens/), [grafsteen](/gedenktekens/)…er zijn nogal wat benamingen aan te geven.**
 
-**Wij noemen het bewust een [GEDENKTEKEN](h/gedenktekens/)!**
+**Wij noemen het bewust een [GEDENKTEKEN](/gedenktekens/)!**
 
 Het **gedenken **van onze dierbaren die er niet meer zijn, maar waar we op liefdevolle wijze aan willen terugdenken.
 
